@@ -2,12 +2,16 @@ html{
    --main-color: #4b67cc;
 }
 
+body{
+   margin: 0;
+}
+
 header.container{
    background-color: var(--main-color);
    color: white;
 }
 
-body.container{
+div.container{
    background-color: white;
    color: var(--main-color);
 }
