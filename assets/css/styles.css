@@ -1,0 +1,18 @@
+html{
+   --main-color: #4b67cc;
+}
+
+header.container{
+   background-color: var(--main-color);
+   color: white;
+}
+
+body.container{
+   background-color: white;
+   color: var(--main-color);
+}
+
+footer.container{
+   background-color: var(--main-color);
+   color: white;
+}
