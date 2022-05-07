@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700;800;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Merienda+One&display=swap');
+
 html{
    --main-color: #5a7bf4;
-   --secondary-color: #2c2c2c;
+   --secondary-color: #3d3d3d;
    font-family: 'Nunito', regular;
    font-weight: 300;
    font-size: 14px;
@@ -24,10 +26,12 @@ div.container{
 
 footer.container{
    box-shadow: 0 0 20px #0000001A;
+   padding: 10px 0 16px 0;
 }
 
 .row,
-.eachCoordonnees .item{
+.eachCoordonnees .item,
+.socialLinks .item{
    display: flex;
 }
 
@@ -61,16 +65,43 @@ a.phone:hover{
    padding-bottom: 10px;
 }
 
-p.link{
+a.link{
+   color: var(--secondary-color);
+   text-decoration-line: none;
    margin: 0;
    transition: all .2s ease;
 }
 
 
-.link:hover{
+.socialLinks .link:hover{
+   font-weight: 700;
+   color: var(--main-color);
+   cursor: pointer;
+}
+
+.socialLinks .item{
+   padding-left: 10px;
+}
+
+.linkPages .link:hover{
    padding-left: 1rem;
    font-weight: 700;
    color: var(--main-color);
    cursor: pointer;
 }
 
+
+.logo{
+   align-self: center;
+}
+
+a.logoNinon{
+   display: block;
+   text-align: center;
+   /*font-family: 'Hachi Maru Pop';*/
+   font-family: 'Merienda One';
+   color: var(--secondary-color);
+   font-size: 30px;
+   font-weight: 900;
+   text-decoration-line: none;
+}
