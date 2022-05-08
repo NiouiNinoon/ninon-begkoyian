@@ -1,9 +1,10 @@
 .menu{
    width: 100%;
    height: 66px;
-   background-color: rgb(243, 243, 243);
+   background-color: white;
    display: flex;
    align-items: center;
+   justify-content: space-between;
 }
 
 .logo-header{
@@ -20,7 +21,7 @@
 .link-header{
    margin-left: -4px;
    text-align: center;
-   background-color:  rgb(243, 243, 243);
+   background-color:  white;
    display: inline-block;
    width: 100px;
    vertical-align: middle;
@@ -42,5 +43,5 @@
    float: left
 }
 .m-right{
-   margin-left: auto;
+   float:right;
 }
