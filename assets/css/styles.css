@@ -7,7 +7,7 @@ html{
    --secondary-color: #3d3d3d;
    font-family: 'Nunito', regular;
    font-weight: 300;
-   font-size:62.5%
+   font-size:14px;
 }
 
 body{
@@ -114,7 +114,7 @@ a.link, a.phone{
 
 .socialLinks a.link{
    padding-left: 10px;
-   
+
 }
 
 .linkPages .link:hover{
