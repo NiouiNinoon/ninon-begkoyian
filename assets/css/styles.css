@@ -156,13 +156,43 @@ a.logoNinon{
    
 }
 
-@media screen and (min-width:600px) and (max-width:1023px) {
-   .bloc-2 .leftFooter{
-      width: 100%;
+@media screen and (min-width:620px) and (max-width:1023px) {
+   .leftFooter,
+   .rightFooter{
+      flex: 0 0 100%;
+      max-width: 100%;
    }
+
+   .linkPages .titleFooter,
+   .linkPages .eachLinks{
+      padding-left: 10vw;
+   }
+
+
+   a.link, a.phone{
+      color: var(--main-color);
+   }
+
 }
 
-@media screen and (max-width:599px) {
+@media screen and (max-width:619px) {
+   .leftFooter,
+   .rightFooter,
+   .theLogo,
+   .coordonnees,
+   .linkPages,
+   .socialLinks{
+      flex: 0 0 100%;
+      max-width: 100%;
+   }
+
+   .coordonnees,
+   .linkPages,
+   .socialLinks{
+      padding-left: 10vw;
+   }
+
+
 }
 
 article,
