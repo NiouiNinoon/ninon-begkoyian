@@ -43,5 +43,12 @@
    float: left
 }
 .m-right{
-   float:right;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
+
+.m-right .btn{
+   padding-right: 20px;
+}
+
