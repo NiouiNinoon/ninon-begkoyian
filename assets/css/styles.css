@@ -92,13 +92,13 @@ footer.container{
 p.town,
 p.age,
 a.phone,
-p.mail{
+a.mail{
    color: var(--secondary-color);
    margin: 0;
    padding-left: 10px;
 }
 
-a.phone:hover{
+a.phone:hover, a.mail:hover{
    color: var(--main-color);
    font-weight: 700;
 }
