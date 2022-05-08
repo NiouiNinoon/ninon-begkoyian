@@ -23,7 +23,7 @@ body{
 
 html,
 body {
-   width:100%
+   width:100%;
 }
 
 a {
@@ -42,8 +42,8 @@ a:hover {
 }
 
 header.container{
-   background-color: var(--main-color);
-   color: white;
+   background-color: white;
+   color: var(--secondary-color);
 }
 
 div.container{
@@ -52,7 +52,7 @@ div.container{
 }
 
 footer.container{
-   box-shadow: 0 0 20px #0000001A;
+   box-shadow: 0 0 50px #0000001A;
    padding: 10px 0 16px 0;
 }
 
@@ -167,12 +167,6 @@ a.logoNinon{
    .linkPages .eachLinks{
       padding-left: 10vw;
    }
-
-
-   a.link, a.phone{
-      color: var(--main-color);
-   }
-
 }
 
 @media screen and (max-width:619px) {
@@ -216,3 +210,7 @@ p {
    font-weight:300;
    color: var(--secondary-color);
 }
+
+
+
+/*HEADER*/

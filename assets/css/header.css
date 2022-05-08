@@ -1,0 +1,46 @@
+.menu{
+   width: 100%;
+   height: 66px;
+   background-color: rgb(243, 243, 243);
+   display: flex;
+   align-items: center;
+}
+
+.logo-header{
+   margin:0;
+   padding: 0;
+   /*font-family: 'Hachi Maru Pop';*/
+   font-family: 'Merienda One';
+   color: var(--secondary-color);
+   font-size: 25px;
+   font-weight: 900;
+   margin-left: 15px;
+}
+
+.link-header{
+   margin-left: -4px;
+   text-align: center;
+   background-color:  rgb(243, 243, 243);
+   display: inline-block;
+   width: 100px;
+   vertical-align: middle;
+   padding: 23.5px 0;
+}
+
+.link-header:hover{
+   margin-left: -4px;
+   text-align: center;
+   background-color: var(--main-color);
+   color: white;
+   display: inline-block;
+   width: 100px;
+   vertical-align: middle;
+   padding: 23.5px 0;
+}
+
+.m-left{
+   float: left
+}
+.m-right{
+   margin-left: auto;
+}
