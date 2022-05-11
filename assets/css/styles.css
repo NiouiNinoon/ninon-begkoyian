@@ -85,3 +85,26 @@ p {
    font-weight:300;
    color: var(--secondary-color);
 }
+
+/* Presentation photo CV */
+.presentation{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   align-items: center;
+   height: calc(100vh - 66px);
+}
+
+.presentation .text-presentation, .presentation .img-presentation{
+   flex: 1;
+   text-align: center;
+   height: 100%;
+}
+
+.text-presentation p {
+   text-align: center;
+}
+
+.img-presentation, .img-presentation img{
+   height: 100%;
+}
