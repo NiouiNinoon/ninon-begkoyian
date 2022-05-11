@@ -1,0 +1,115 @@
+footer.container{
+    display: block;
+    box-shadow: 0 0 100px #0000002b;
+    padding: 10px 0 16px 0;
+}
+
+.row,
+.eachCoordonnees .item,
+.socialLinks .item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.titleFooter{
+    font-size: 16px;
+    font-family: 'Nunito', extra-bold;
+    font-weight: 900;
+    color: var(--secondary-color);
+}
+
+p.town,
+p.age,
+a.phone,
+a.mail{
+    color: var(--secondary-color);
+    margin: 0;
+    padding-left: 10px;
+}
+
+a.phone:hover, a.mail:hover{
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+.item{
+    padding-bottom: 10px;
+}
+
+a.link, a.phone{
+    color: var(--secondary-color);
+    font-size:14px;
+    margin: 0;
+    transition: all .2s ease;
+    align-self: center;
+}
+
+
+.socialLinks .link:hover{
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.socialLinks a.link{
+    padding-left: 10px;
+
+}
+
+.linkPages .link:hover{
+    padding-left: 1rem;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.bloc-2 .theLogo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bloc-2 .linkPages{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.logo{
+    align-self: center;
+}
+
+a.logoNinon{
+    display: block;
+    text-align: center;
+    /*font-family: 'Hachi Maru Pop';*/
+    font-family: 'Merienda One';
+    color: var(--secondary-color);
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration-line: none;
+}
+
+@media screen and (min-width:620px) and (max-width:1023px) {
+    .leftFooter,
+    .rightFooter{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .linkPages .titleFooter,
+    .linkPages .eachLinks{
+        padding-left: 10vw;
+    }
+}
+
+@media screen and (max-width:619px) {
+    .leftFooter,
+    .rightFooter,
+    .theLogo,
+    .coordonnees,
+    .linkPages,
+    .socialLinks{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
