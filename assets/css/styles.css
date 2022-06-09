@@ -101,6 +101,10 @@ p {
    height: 100%;
 }
 
+.presentation .text-presentation{
+   height: max-content;
+}
+
 .text-presentation p {
    text-align: center;
 }
