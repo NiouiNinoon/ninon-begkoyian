@@ -134,6 +134,7 @@ p {
     padding: 10px 20px;
     border-radius: 8px;
     box-shadow: 0 0 26px #00000047;
+    max-width: 280px;
 }
 
 .presentation .img-presentation .block-color .quality1{
