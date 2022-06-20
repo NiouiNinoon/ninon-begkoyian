@@ -124,3 +124,37 @@ p {
     border-top-left-radius: 25%;
     position: relative;
 }
+
+.presentation .img-presentation .block-color .quality1{
+    position: absolute;
+    bottom: 65%;
+    right: -3%;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 26px #00000021;
+}
+
+
+
+.presentation .img-presentation .block-color .quality2{
+    position: absolute;
+    bottom: 40%;
+    left: -3%;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 26px #00000021;
+}
+
+
+
+.presentation .img-presentation .block-color .quality3{
+    position: absolute;
+    bottom: 17%;
+    right: 2%;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 26px #00000021;
+}
