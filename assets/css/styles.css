@@ -177,3 +177,14 @@ p {
     bottom: 0;
     right: 0;
 }
+
+.presentation .img-presentation .block-color .circle-color{
+    width: 85px;
+    height: 85px;
+    background-color: #ffb9b7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+    border: 6px solid white;
+}
