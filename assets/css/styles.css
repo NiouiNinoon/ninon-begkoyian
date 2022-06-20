@@ -157,13 +157,13 @@ p {
     padding: 10px 20px;
     border-radius: 8px;
     box-shadow: 0 0 26px #00000047;
-    max-width: 280px;
+    max-width: 235px;
 }
 
 .presentation .img-presentation .block-color .quality1{
     position: absolute;
     bottom: 65%;
-    right: -13%;
+    right: -18%;
 }
 
 
