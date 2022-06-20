@@ -119,7 +119,7 @@ p {
     height: 80%;
     width: 75%;
     margin: auto;
-    background-color: var(--main-color);
+    background-color: #5a7bf46e;
     border-bottom-right-radius: 175px;
     border-top-left-radius: 175px;
     position: relative;
