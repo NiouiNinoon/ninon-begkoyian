@@ -127,14 +127,19 @@ p {
     transform: translateY(-50%);
 }
 
-.presentation .img-presentation .block-color .quality1{
-    position: absolute;
-    bottom: 65%;
-    right: -3%;
+
+
+.presentation .img-presentation .block-color .quality{
     background-color: white;
     padding: 5px 10px;
     border-radius: 8px;
     box-shadow: 0 0 26px #00000021;
+}
+
+.presentation .img-presentation .block-color .quality1{
+    position: absolute;
+    bottom: 65%;
+    right: -3%;
 }
 
 
@@ -143,10 +148,6 @@ p {
     position: absolute;
     bottom: 40%;
     left: -3%;
-    background-color: white;
-    padding: 5px 10px;
-    border-radius: 8px;
-    box-shadow: 0 0 26px #00000021;
 }
 
 
@@ -155,10 +156,6 @@ p {
     position: absolute;
     bottom: 17%;
     right: 2%;
-    background-color: white;
-    padding: 5px 10px;
-    border-radius: 8px;
-    box-shadow: 0 0 26px #00000021;
 }
 
 .presentation .img-presentation .block-color img{
