@@ -123,6 +123,8 @@ p {
     border-bottom-right-radius: 175px;
     border-top-left-radius: 175px;
     position: relative;
+    margin-top: 50vh;
+    transform: translateY(-50%);
 }
 
 .presentation .img-presentation .block-color .quality1{
