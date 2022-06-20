@@ -119,7 +119,7 @@ p {
     height: 80%;
     width: 75%;
     margin: auto;
-    background-color: dodgerblue;
+    background-color: var(--main-color);
     border-bottom-right-radius: 175px;
     border-top-left-radius: 175px;
     position: relative;
@@ -131,15 +131,16 @@ p {
 
 .presentation .img-presentation .block-color .quality{
     background-color: white;
-    padding: 5px 10px;
+    padding: 10px 20px;
     border-radius: 8px;
-    box-shadow: 0 0 26px #00000021;
+    box-shadow: 0 0 26px #00000047;
+    font-size: 17px;
 }
 
 .presentation .img-presentation .block-color .quality1{
     position: absolute;
     bottom: 65%;
-    right: -3%;
+    right: -8%;
 }
 
 
@@ -154,8 +155,8 @@ p {
 
 .presentation .img-presentation .block-color .quality3{
     position: absolute;
-    bottom: 17%;
-    right: 2%;
+    bottom: 9%;
+    right: 0%;
 }
 
 .presentation .img-presentation .block-color img{
