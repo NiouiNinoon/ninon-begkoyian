@@ -160,7 +160,7 @@ p {
 }
 
 .presentation .img-presentation .block-color .quality .title{
-    background-color: var(--main-color);
+    color: var(--main-color);
     font-weight: 600px;
     font-size: 17px;
 }
