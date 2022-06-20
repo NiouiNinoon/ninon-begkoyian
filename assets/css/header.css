@@ -118,6 +118,25 @@ span.m-toggle-icon::after{top: -14px;}
     padding: 0;
 }
 
+#myHeader .menu .mid-menu .menu-link{
+    color: #999;
+}
+
+#myHeader .menu .mid-menu .menu-link.current{
+    color: #000;
+    position: relative;
+}
+
+#myHeader .menu .mid-menu .menu-link.current::after{
+    color: #000;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: var(--main-color);
+    border-radius: 20px;
+}
 
 #myHeader .menu .mid-menu ul li{
     margin: 0 15px;
