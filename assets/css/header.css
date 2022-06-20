@@ -133,10 +133,11 @@ span.m-toggle-icon::after{top: -14px;}
     position: absolute;
     bottom: -10px;
     left: 50%;
-    width: 30px;
-    height: 30px;
+    width: 85%;
+    height: 4px;
     background-color: var(--main-color);
     border-radius: 20px;
+    transform: translate(-50%, -50%);
 }
 
 #myHeader .menu .mid-menu ul li{
