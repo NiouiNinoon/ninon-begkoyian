@@ -112,3 +112,15 @@ p {
 .img-presentation, .img-presentation img{
    height: 100%;
 }
+
+
+/*prez v2*/
+.presentation .img-presentation .block-color{
+    height: 80%;
+    width: 75%;
+    margin: auto;
+    background-color: dodgerblue;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 25%;
+    position: relative;
+}
