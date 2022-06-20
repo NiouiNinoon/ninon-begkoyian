@@ -110,6 +110,15 @@ span.m-toggle-icon::after{top: -14px;}
    top: 0;
 }
 
+/* menu v2 */
+
+#myHeader .menu .mid-menu ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
 @media only screen and (max-width: 700px){
    .m-right{
       position : absolute;
