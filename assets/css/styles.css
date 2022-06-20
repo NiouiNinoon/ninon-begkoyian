@@ -120,8 +120,8 @@ p {
     width: 75%;
     margin: auto;
     background-color: dodgerblue;
-    border-bottom-right-radius: 25%;
-    border-top-left-radius: 25%;
+    border-bottom-right-radius: 175px;
+    border-top-left-radius: 175px;
     position: relative;
 }
 
@@ -157,4 +157,12 @@ p {
     padding: 5px 10px;
     border-radius: 8px;
     box-shadow: 0 0 26px #00000021;
+}
+
+.presentation .img-presentation .block-color img{
+    border-radius: inherit;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
