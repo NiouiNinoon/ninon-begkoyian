@@ -124,6 +124,13 @@ span.m-toggle-icon::after{top: -14px;}
 #myHeader .menu .mid-menu ul li{
     margin: 0 15px;
 }
+
+#myHeader .menu .right-menu a{
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    color: var(--main-color);
+    padding: 10px 25px;
+}
     
 
 @media only screen and (max-width: 700px){
