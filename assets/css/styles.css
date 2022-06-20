@@ -161,11 +161,11 @@ p {
 
 .presentation .img-presentation .block-color .quality .title{
     color: var(--main-color);
-    font-weight: 600px;
+    font-weight: 500;
     font-size: 17px;
 }
 
-.presentation .img-presentation .block-color .quality .title{
+.presentation .img-presentation .block-color .quality .description{
     font-size: 14px;
 }
 
