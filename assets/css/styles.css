@@ -124,6 +124,7 @@ p {
 .presentation .text-presentation .paragraphe-prez {
     font-size: 20px;
     color: var(--main-color);
+    margin-bottom: 60px;
 }
 
 
