@@ -217,9 +217,16 @@ p {
 }
 
 /* Formations */
-.formationContainer{
+.parcoursContainer{
     margin: 0 8%;
-    border-left: 6px solid var(--main-color);
+    display:flex;
+    flex-basis:content;
+}
+
+.timeline{
+    width: 6px;
+    border-radius:10px;
+    background-color: var(--main-color);
 }
 
 .formation{
