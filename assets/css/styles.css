@@ -226,7 +226,7 @@ p {
 .timeline{
     width: 6px;
     border-radius:10px;
-    background-color: var(--main-color);
+    background-color: #5a7bf46e;
 }
 
 .formation{
