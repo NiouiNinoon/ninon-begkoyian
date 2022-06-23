@@ -221,3 +221,7 @@ p {
     margin: 0 8%;
     border-left: 6px solid var(--main-color);
 }
+
+.formationContainer > *{
+    margin: 0 8%;
+}
