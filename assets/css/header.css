@@ -135,7 +135,7 @@ span.m-toggle-icon::after{top: -14px;}
     left: 50%;
     width: 85%;
     height: 4px;
-    background-color: var(--main-color);
+    background-color: #5a7bf46e;
     border-radius: 20px;
     transform: translate(-50%, -50%);
 }
