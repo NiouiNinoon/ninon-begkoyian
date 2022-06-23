@@ -223,10 +223,6 @@ p {
     flex-basis:content;
 }
 
-.formationsContainer{
-    padding: 0 2%;
-}
-
 .timeline{
     width: 6px;
     border-radius:10px;
@@ -235,6 +231,8 @@ p {
 
 .formation{
     margin: 7% 0;
+    position: relative;
+    padding: 0 9%;
 }
 
 .formation:before{
@@ -244,7 +242,7 @@ p {
     background-color: var(--secondary-color);
     position: absolute;
     top: 0;
-    left: 0;
+    left: -15px;
     border-radius: 100px;
     border: 2px solid white;
 }
