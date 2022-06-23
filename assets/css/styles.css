@@ -4,7 +4,8 @@
 
 html{
    --main-color: #5a7bf4;
-   --secondary-color: #3d3d3d;
+   --dark-gray: #3d3d3d;
+   --secondary-color:#ffb9b7;
    font-family: 'Nunito', regular;
    font-weight: 300;
    font-size:14px;
@@ -44,7 +45,7 @@ a:hover {
 
 div.container{
    background-color: white;
-   color: var(--secondary-color);
+   color: var(--dark-gray);
 }
 
 .row>* {
@@ -83,7 +84,7 @@ p {
    line-height:23px;
    text-align:left;
    font-weight:300;
-   color: var(--secondary-color);
+   color: var(--dark-gray);
 }
 
 /* Presentation photo CV */
@@ -115,10 +116,12 @@ p {
 
 .presentation .text-presentation .light-title-prez {
    font-size: 19px;
+   color: var(--dark-gray);
 }
 
 .presentation .text-presentation .black-title-prez {
     font-size: 31px;
+    color: var(--dark-gray);
 }
 
 .presentation .text-presentation .paragraphe-prez {
@@ -138,6 +141,7 @@ p {
 
 .presentation .text-presentation .button-container .download {
     margin-left: 20px;
+    color: var(--dark-gray);
 }
 
 
@@ -189,6 +193,7 @@ p {
 
 .presentation .img-presentation .block-color .quality .description{
     font-size: 14px;
+    color: var(--dark-gray);
 }
 
 .presentation .img-presentation .block-color img{
@@ -203,7 +208,7 @@ p {
 .presentation .img-presentation .block-color .circle-color{
     width: 85px;
     height: 85px;
-    background-color: #ffb9b7;
+    background-color: var(--secondary-color);
     position: absolute;
     top: 0;
     left: 0;
