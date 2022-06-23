@@ -215,3 +215,9 @@ p {
     border-radius: 100px;
     border: 6px solid white;
 }
+
+/* Formations */
+.formationContainer{
+    margin: 0 8%;
+    border-left: 6px solid var(--main-color);
+}
