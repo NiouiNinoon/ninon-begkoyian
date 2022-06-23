@@ -237,12 +237,12 @@ p {
 
 .formation:before{
     content: '';
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     background-color: var(--secondary-color);
     position: absolute;
     top: 0;
-    left: -15px;
+    left: -13px;
     border-radius: 100px;
     border: 2px solid white;
 }
