@@ -258,13 +258,13 @@ p {
 
 }
 
-.formation .ambitions{
+.formationsContainer .ambitions{
     color: #474747;
     text-align: center;
     position: relative;
 }
 
-.formation .ambitions::before{
+.formationsContainer .ambitions::before{
     content: '';
     position: absolute;
     background-color: #474747;
@@ -274,7 +274,7 @@ p {
     left: 0;
 }
 
-.formation .ambitions::after{
+.formationsContainer .ambitions::after{
     content: '';
     position: absolute;
     background-color: #474747;
