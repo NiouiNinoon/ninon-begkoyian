@@ -220,7 +220,6 @@ p {
 .parcoursContainer{
     margin: 0 8%;
     display:flex;
-    flex-basis:content;
 }
 
 .timeline{
@@ -245,4 +244,42 @@ p {
     left: -13px;
     border-radius: 100px;
     border: 2px solid white;
+}
+
+.formation .date{
+
+}
+
+.formation .intitule{
+
+}
+
+.formation .adresse{
+
+}
+
+.formation .ambitions{
+    color: #474747;
+    text-align: center;
+    position: relative;
+}
+
+.formation .ambitions::before{
+    content: '';
+    position: absolute;
+    background-color: #474747;
+    width: 10px;
+    height: 2px;
+    top: 2px;
+    left: 0;
+}
+
+.formation .ambitions::after{
+    content: '';
+    position: absolute;
+    background-color: #474747;
+    width: 10px;
+    height: 2px;
+    top: 2px;
+    right: 0;
 }
