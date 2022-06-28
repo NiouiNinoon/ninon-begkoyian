@@ -258,6 +258,17 @@ p {
 
 }
 
+.formation:hover div{
+    font-weight: 600;
+}
+
+.formation:hover::before,
+.formation:hover::after{
+    width: 20px;
+    height: 20px;
+    border: 2.5px solid white;
+}
+
 .formationsContainer .ambitions{
     color: #3c3c3c9e;
     text-align: center;
